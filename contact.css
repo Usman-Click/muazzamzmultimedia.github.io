@@ -1,0 +1,157 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: serif !important;
+
+
+}
+
+
+/******************NAVBAR*******************/
+
+
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar-brand img{
+	width: 60px;
+}
+.navbar{
+	background-image: linear-gradient(to right, rgb(249, 253, 17), #FFCC29);
+	padding-bottom: 0;
+}
+.navbar-nav{
+	margin-right: 10px;
+	padding-bottom: 0;
+	
+}
+
+.navbar-nav a:hover{
+	border-bottom: 2px solid rgb(249, 253, 17);
+}
+.navbar-nav a{
+	color: black !important;
+	float: right !important;
+	text-align: right !important;
+	transition: 0.2s;
+}
+.navbar-toggler{
+	outline: none !important;
+	box-shadow: none !important;
+	border: none !important;
+
+}
+
+
+
+
+/******************BODY*******************/
+#body{
+	margin-top: 100px;
+	
+
+}
+
+
+.fa-phone,.fa-envelope,.fa-map{
+	font-size: 40px !important;
+	margin-bottom: 10px;
+	padding: 15px;
+	border-radius: 100px;
+	background-color: #3F3D56;
+	color: #FFCC29;
+}
+#body .top{
+	position: relative;
+	font-size: 20px;
+	top: -20px !important;
+	padding-top: 0;
+	font-weight: bold;
+	color: #F9A826;
+
+
+}
+#body .left{
+	position: relative;
+	top: -40px !important;
+	left: 80px !important;
+}
+textarea{
+	box-shadow: none !important;
+	outline: none !important;
+	border: 1px solid #d8d6d6 !important;
+
+
+}
+.mycol input{
+	margin-bottom: 20px !important;
+	font-size: 17px;
+	box-shadow: none !important;
+	outline: none !important;
+	width: 100% !important;
+	height: 50px !important;
+	border: none;
+	border: 1px solid #d8d6d6 !important;
+	/*box-shadow: 0 0 20px #d8d6d6, 0 0 40px #d8d6d6, 0 0 60px #d8d6d6 !important;*/
+}
+.mycol input:hover{
+	border-color: #FFCC29 !important;
+}
+
+.mycol textarea:hover{
+	border-color: #FFCC29 !important;
+}
+
+
+
+.btn-primary{
+	color: black !important;
+	font-weight: bold !important;
+	outline: none !important;
+	border: none !important;
+	box-shadow: none !important;
+	background-image: linear-gradient(to left, rgb(249, 253, 17), #FFCC29);
+
+
+}
+
+
+
+/*********************FOOTER********************/
+
+.footer-img{ 
+	width: 100%;
+}
+
+#footer{
+	background-image: linear-gradient(to right, rgb(249, 253, 17), #FFCC29) !important;
+	width: 100%;
+}
+.logg{
+	width: 160px;
+}
+
+.button2{
+	color: black !important;
+	font-weight: bold !important;
+	outline: none !important;
+	border: none !important;
+	box-shadow: none !important;
+	background-image: linear-gradient(to left, rgb(249, 253, 17), #FFCC29);
+	width: 200px !important;
+	font-size: 18px !important;
+
+}
+
+
+#footer input{
+	box-shadow: none !important;
+	outline: none !important;
+	border: none!important;
+	
+}
+
+
+

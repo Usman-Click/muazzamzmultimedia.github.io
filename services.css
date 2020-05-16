@@ -1,0 +1,146 @@
+body{
+    padding:0;
+    margin: 0;
+}
+
+
+
+/******************NAVBAR*******************/
+
+
+#nav-bar{
+	position: sticky !important;
+	top: 0;
+	z-index: 10;
+}
+.navbar-brand img{
+	width: 60px;
+}
+.navbar{
+	background-image: linear-gradient(to right, rgb(249, 253, 17), #FFCC29);
+	padding-bottom: 0;
+}
+.navbar-nav{
+	margin-right: 10px;
+	padding-bottom: 0;
+	
+}
+
+.navbar-nav a:hover{
+	border-bottom: 2px solid rgb(249, 253, 17);
+}
+.navbar-nav a{
+	color: black !important;
+	float: right !important;
+	text-align: right !important;
+	transition: 0.2s;
+}
+.navbar-toggler{
+	outline: none !important;
+	box-shadow: none !important;
+	border: none !important;
+
+}
+
+
+
+/******************SERVICES*******************/
+
+
+.md4{
+	border:15px solid white;
+	 background-color: white;
+	 border-radius: 10px;
+	 grid-gap: 10PX;
+	
+}
+
+.vectors{
+	width: 100% !important;
+    
+    
+
+}
+.title::before{
+	content: "";
+	width:150px;
+	height:5px;
+	margin-left:auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 10px;
+	margin-bottom: 40px;
+	background-image: linear-gradient(to right, rgb(249, 253, 17), #FFCC29);
+	transform:translatey(110px);
+
+
+}
+.title::after{
+	content: "";
+	width:70px;
+	height:15px;
+	margin-left:auto;
+	margin-right: auto;
+	border-radius: 10px;
+	display: block;
+	margin-bottom: 40px;
+	background-image: linear-gradient(to right, rgb(249, 253, 17), #FFCC29);
+	transform:translatey(12px);
+
+
+}
+
+.fix{
+	position: fixed !important;
+	top: 90% !important;
+	right: 0 !important;
+	z-index: 10 !important;
+	border: 1px solid #FFCC29 !important;
+	outline: none !important;
+	box-shadow: none !important;
+	color: black !important;
+	border-radius: 100px !important;
+	font-size: 20px !important;
+	background-image: linear-gradient(to right, rgb(249, 253, 17), #FFCC29) !important;
+
+
+}
+
+
+
+
+
+/*********************FOOTER********************/
+
+.footer-img{ 
+	width: 100%;
+}
+
+#footer{
+	background-image: linear-gradient(to right, rgb(249, 253, 17), #FFCC29) !important;
+	width: 100%;
+}
+.logg{
+	width: 160px;
+}
+
+.button2{
+	color: black !important;
+	font-weight: bold !important;
+	outline: none !important;
+	border: none !important;
+	box-shadow: none !important;
+	background-image: linear-gradient(to left, rgb(249, 253, 17), #FFCC29);
+	width: 200px !important;
+	font-size: 18px !important;
+
+}
+
+
+#footer input{
+	box-shadow: none !important;
+	outline: none !important;
+	border: none!important;
+	
+}
+
